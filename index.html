@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1200, initial-scale=0.6"/>
+<title>瑞玑科技(Ridge)</title>
+<meta name="description" content="IT基础架构，半导体，系统集成"/>
+<meta name="keywords" content="IT基础架构，半导体，系统集成"/>
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/index.css">
+<script type="text/javascript">
+	function setFontSize() {
+		var container = document.getElementById("container_div");
+		var size = 15 + (container.clientWidth - 1200) / 80;
+		container.setAttribute("style", "font-size:"+size+"px");
+	}
+	window.onload = function() {
+		setFontSize();
+	}
+	window.onresize = function() {
+		setFontSize();
+	};
+</script>
+</head>
+<body>
+	<div id="container_div" class="container">
+		<header>
+			<div class="header-logo">
+				<img alt="Ridge" src="img/logo.png">
+			</div>
+			<div class="header-nav">
+				<ul class="header-nav-ul">
+					<li class="active">首页</li>
+					<li onclick="window.location.href='business.html'">业务纵览</li>
+					<li onclick="window.location.href='solution.html'">解决方案</li>
+					<li onclick="window.location.href='about.html'">关于我们</li>
+				</ul>
+			</div>
+			<div class="header-button">
+				<div class="header-button-search"></div>
+			</div>
+		</header>
+		<main>
+			<aside class="aside-left">
+				<div class="aside-left-text"></div>
+				<div class="aside-left-info"></div>
+			</aside>
+			<div class="content">
+				<div class="content-text">
+					<img src="img/index/content.png">
+					<div class="content-button"></div>
+				</div>
+				<div class="content-text-2">
+					<img src="img/content-text-2.png">
+				</div>
+				<div>STORAGE</div>
+				<div>SECURITY</div>
+				<div>OUTSOURCING</div>
+				<div>VIRTUALIZATION</div>
+				<div>CLOUD COMPUTING</div>
+				<div>DISASTER RECOVERY</div>
+				<div>VIDEO SURVEILLANCE</div>
+				<div>UNIX/X86 SERVER</div>
+				<div>VDI</div>
+				<div>O&M MONITORING</div>
+				<div>NETWORK</div>
+				<div>OA</div>
+				<div>UNIFIED COMMUNICATIONS</div>
+				<div>ORACLE/MY SQL</div>
+				<div>SAP BASIS</div>
+				<div>DATA CENTER</div>
+			</div>
+			<aside class="aside-right">
+				<div class="aside-right-pos"></div>
+				<div class="aside-right-share"></div>
+			</aside>
+		</main>
+	</div>
+</body>
+</html>

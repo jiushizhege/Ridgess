@@ -1,0 +1,106 @@
+@CHARSET "UTF-8";
+@font-face {
+	font-family: PF-Ital;
+	src: url('../fonts/PFDinTextCondPro-Italic.ttf');
+}
+@font-face {
+	font-family: SourceHan-Light;
+	src: url('../fonts/SourceHanSansCN-Light.otf');
+}
+html {
+	font-size: 100%;
+}
+body {
+	font-family: "Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+	margin: 0;
+    padding: 0;
+}
+.container {
+	min-width: 1200px;
+	min-height: 675px;
+	margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    height: 100%;
+}
+header {
+	display: -webkit-flex;
+    display: flex;
+    padding-top: 1.1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.header-logo {
+	flex: 18;
+}
+.header-logo img {
+	width: 8.5em;
+}
+.header-nav {
+    flex: 71;
+    display: -webkit-flex;
+    display: flex;
+}
+.header-nav-ul {
+	list-style: none;
+	margin-left: auto;
+	margin-top: 0.9em;
+	margin-bottom: 0;
+}
+.header-nav-ul li {
+	padding: 0 1.2em;
+	height: 2em;
+	font-size: 0.9em;
+	font-family: SourceHan-Light;
+	display: inline-block;
+	cursor: pointer;
+}
+.header-nav-ul>li.active {
+    background-image: url(../img/nav-bottom.png);
+    background-position-x: 55%;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+	background-size: 2.3em;
+	cursor: text;
+}
+.header-button {
+	flex: 11;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: flex-end;
+}
+.header-button-search {
+	width: 6em;
+	height: 1em;
+	background-image: url(../img/search.png);
+	background-size: cover;
+	margin-top: 1.05em;
+}
+.aside-left-text {
+	background: url(../img/aside-left-1.png);
+    width: 0.68em;
+    height: 13em;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 12.18em;
+    left: 2.18em;
+}
+.aside-left-info {
+	width: 11.5em;
+    height: 4.5em;
+	background: url(../img/contact.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 17em;
+    margin-left: 1.8em;
+}
+.aside-right-share {
+	background: url(../img/share.png);
+    width: 9em;
+    height: 2em;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 0.5em;
+   	float: right;
+}

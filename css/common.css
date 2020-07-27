@@ -29,6 +29,8 @@ header {
     padding-top: 1.1em;
     padding-left: 1em;
     padding-right: 1em;
+    position: fixed;
+    width: 100%;
 }
 .header-logo {
 	flex: 18;
